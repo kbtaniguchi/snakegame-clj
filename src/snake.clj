@@ -42,4 +42,7 @@
   (create-snake)
   (move (create-snake))
   (move (create-snake) :grow)
+  (dirs KeyEvent/VK_LEFT)
+  turn-millis
+  win-length 
   :rcf)
